@@ -1,6 +1,6 @@
-appId: com.example.nextron
-productName: My Nextron App
-copyright: Copyright © 2018 Yoshihide Shiono
+appId: com.dell.dvd-for-aipc-rag
+productName: Dell Validated Design for AI PC - RAG
+copyright: Copyright © 2024 Dell Technologies
 directories:
   output: dist
   buildResources: resources

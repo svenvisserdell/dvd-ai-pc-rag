@@ -62,3 +62,17 @@ $RECYCLE.BIN/
 *.msi
 *.msm
 *.msp
+
+/app
+/vectorstores/
+batch_results*.xml
+/openvino_genai_chat/
+/qnn_genai_chat/
+/lc_venv
+/dist
+*.pyc
+/renderer/data/suggestions.json
+/models
+/cpp/qnn_genai_chat/ChatApp
+
+.vs

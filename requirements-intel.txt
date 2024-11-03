@@ -1,0 +1,5 @@
+psutil 
+openvino
+optimum-intel==1.19.0
+nncf==2.12
+openvino-tokenizers

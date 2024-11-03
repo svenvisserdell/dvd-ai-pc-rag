@@ -1,0 +1,10 @@
+git+https://github.com/gdedrouas/python-mwxml@xml_format_0.11
+git+https://github.com/mediawiki-utilities/python-mwtypes@updates_schema_0.11
+mwparserfromhell
+langchain_community
+wikipedia
+langchain-chroma
+jq
+python-dotenv
+langchain_huggingface
+einops

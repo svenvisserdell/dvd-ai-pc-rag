@@ -1,18 +1,28 @@
 {
   "private": true,
-  "name": "my-nextron-app",
-  "description": "My application description",
+  "name": "dvd-for-aipc-rag",
+  "description": "Dell Validated Design for AI PC - RAG",
   "version": "1.0.0",
-  "author": "Yoshihide Shiono <shiono.yoshihide@gmail.com>",
+  "author": "Tyler Cox <tyler_cox@dell.com>",
+  "license": "Apache-2.0",
   "main": "app/background.js",
   "scripts": {
-    "dev": "nextron",
-    "build": "nextron build",
-    "postinstall": "electron-builder install-app-deps"
+    "dev": "copy .\\renderer\\data\\suggestions-source.json .\\renderer\\data\\suggestions.json && nextron",
+    "build": "nextron build --win --x64",
+    "postinstall": "electron-builder install-app-deps",
+    "lint": "next lint"
   },
   "dependencies": {
+    "@ai-sdk/openai": "^0.0.67",
+    "@assistant-ui/react": "^0.5.73",
+    "@assistant-ui/react-markdown": "^0.2",
+    "@tailwindcss/typography": "^0.5.15",
+    "ai": "^3.4.10",
     "electron-serve": "^1.3.0",
-    "electron-store": "^8.2.0"
+    "electron-store": "^8.2.0",
+    "fs": "^0.0.1-security",
+    "tailwind-merge": "^2.5.4",
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
     "@types/node": "^20.11.16",
